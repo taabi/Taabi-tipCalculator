@@ -19,6 +19,8 @@
 		1389A405194FD533003DBD36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A3ED194FD533003DBD36 /* UIKit.framework */; };
 		1389A40D194FD533003DBD36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1389A40B194FD533003DBD36 /* InfoPlist.strings */; };
 		1389A40F194FD533003DBD36 /* Taabi_tipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389A40E194FD533003DBD36 /* Taabi_tipCalculatorTests.m */; };
+		1389A41B194FFEFA003DBD36 /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389A419194FFEFA003DBD36 /* TipViewController.m */; };
+		1389A41C194FFEFA003DBD36 /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1389A41A194FFEFA003DBD36 /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		1389A40A194FD533003DBD36 /* Taabi-tipCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taabi-tipCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		1389A40C194FD533003DBD36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1389A40E194FD533003DBD36 /* Taabi_tipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taabi_tipCalculatorTests.m; sourceTree = "<group>"; };
+		1389A418194FFEFA003DBD36 /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		1389A419194FFEFA003DBD36 /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		1389A41A194FFEFA003DBD36 /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				1389A3F9194FD533003DBD36 /* AppDelegate.m */,
 				1389A3FB194FD533003DBD36 /* Images.xcassets */,
 				1389A3F0194FD533003DBD36 /* Supporting Files */,
+				1389A418194FFEFA003DBD36 /* TipViewController.h */,
+				1389A419194FFEFA003DBD36 /* TipViewController.m */,
+				1389A41A194FFEFA003DBD36 /* TipViewController.xib */,
 			);
 			path = "Taabi-tipCalculator";
 			sourceTree = "<group>";
@@ -219,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1389A41C194FFEFA003DBD36 /* TipViewController.xib in Resources */,
 				1389A3F4194FD533003DBD36 /* InfoPlist.strings in Resources */,
 				1389A3FC194FD533003DBD36 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1389A3FA194FD533003DBD36 /* AppDelegate.m in Sources */,
+				1389A41B194FFEFA003DBD36 /* TipViewController.m in Sources */,
 				1389A3F6194FD533003DBD36 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +372,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taabi-tipCalculator/Taabi-tipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "Taabi-tipCalculator/Taabi-tipCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +386,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taabi-tipCalculator/Taabi-tipCalculator-Prefix.pch";
 				INFOPLIST_FILE = "Taabi-tipCalculator/Taabi-tipCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
