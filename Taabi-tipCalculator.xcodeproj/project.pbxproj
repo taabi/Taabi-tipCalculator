@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1389A3EA194FD533003DBD36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A3E9194FD533003DBD36 /* Foundation.framework */; };
+		1389A3EC194FD533003DBD36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A3EB194FD533003DBD36 /* CoreGraphics.framework */; };
+		1389A3EE194FD533003DBD36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A3ED194FD533003DBD36 /* UIKit.framework */; };
+		1389A3F4194FD533003DBD36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1389A3F2194FD533003DBD36 /* InfoPlist.strings */; };
+		1389A3F6194FD533003DBD36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389A3F5194FD533003DBD36 /* main.m */; };
+		1389A3FA194FD533003DBD36 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389A3F9194FD533003DBD36 /* AppDelegate.m */; };
+		1389A3FC194FD533003DBD36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1389A3FB194FD533003DBD36 /* Images.xcassets */; };
+		1389A403194FD533003DBD36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A402194FD533003DBD36 /* XCTest.framework */; };
+		1389A404194FD533003DBD36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A3E9194FD533003DBD36 /* Foundation.framework */; };
+		1389A405194FD533003DBD36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1389A3ED194FD533003DBD36 /* UIKit.framework */; };
+		1389A40D194FD533003DBD36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1389A40B194FD533003DBD36 /* InfoPlist.strings */; };
+		1389A40F194FD533003DBD36 /* Taabi_tipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1389A40E194FD533003DBD36 /* Taabi_tipCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1389A406194FD533003DBD36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1389A3DE194FD533003DBD36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1389A3E5194FD533003DBD36;
+			remoteInfo = "Taabi-tipCalculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1389A3E6194FD533003DBD36 /* Taabi-tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taabi-tipCalculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1389A3E9194FD533003DBD36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1389A3EB194FD533003DBD36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1389A3ED194FD533003DBD36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1389A3F1194FD533003DBD36 /* Taabi-tipCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taabi-tipCalculator-Info.plist"; sourceTree = "<group>"; };
+		1389A3F3194FD533003DBD36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1389A3F5194FD533003DBD36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1389A3F7194FD533003DBD36 /* Taabi-tipCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Taabi-tipCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		1389A3F8194FD533003DBD36 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1389A3F9194FD533003DBD36 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1389A3FB194FD533003DBD36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1389A401194FD533003DBD36 /* Taabi-tipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taabi-tipCalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1389A402194FD533003DBD36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1389A40A194FD533003DBD36 /* Taabi-tipCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Taabi-tipCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		1389A40C194FD533003DBD36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1389A40E194FD533003DBD36 /* Taabi_tipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Taabi_tipCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1389A3E3194FD533003DBD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389A3EC194FD533003DBD36 /* CoreGraphics.framework in Frameworks */,
+				1389A3EE194FD533003DBD36 /* UIKit.framework in Frameworks */,
+				1389A3EA194FD533003DBD36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1389A3FE194FD533003DBD36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389A403194FD533003DBD36 /* XCTest.framework in Frameworks */,
+				1389A405194FD533003DBD36 /* UIKit.framework in Frameworks */,
+				1389A404194FD533003DBD36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1389A3DD194FD533003DBD36 = {
+			isa = PBXGroup;
+			children = (
+				1389A3EF194FD533003DBD36 /* Taabi-tipCalculator */,
+				1389A408194FD533003DBD36 /* Taabi-tipCalculatorTests */,
+				1389A3E8194FD533003DBD36 /* Frameworks */,
+				1389A3E7194FD533003DBD36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1389A3E7194FD533003DBD36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1389A3E6194FD533003DBD36 /* Taabi-tipCalculator.app */,
+				1389A401194FD533003DBD36 /* Taabi-tipCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1389A3E8194FD533003DBD36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1389A3E9194FD533003DBD36 /* Foundation.framework */,
+				1389A3EB194FD533003DBD36 /* CoreGraphics.framework */,
+				1389A3ED194FD533003DBD36 /* UIKit.framework */,
+				1389A402194FD533003DBD36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1389A3EF194FD533003DBD36 /* Taabi-tipCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				1389A3F8194FD533003DBD36 /* AppDelegate.h */,
+				1389A3F9194FD533003DBD36 /* AppDelegate.m */,
+				1389A3FB194FD533003DBD36 /* Images.xcassets */,
+				1389A3F0194FD533003DBD36 /* Supporting Files */,
+			);
+			path = "Taabi-tipCalculator";
+			sourceTree = "<group>";
+		};
+		1389A3F0194FD533003DBD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1389A3F1194FD533003DBD36 /* Taabi-tipCalculator-Info.plist */,
+				1389A3F2194FD533003DBD36 /* InfoPlist.strings */,
+				1389A3F5194FD533003DBD36 /* main.m */,
+				1389A3F7194FD533003DBD36 /* Taabi-tipCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1389A408194FD533003DBD36 /* Taabi-tipCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1389A40E194FD533003DBD36 /* Taabi_tipCalculatorTests.m */,
+				1389A409194FD533003DBD36 /* Supporting Files */,
+			);
+			path = "Taabi-tipCalculatorTests";
+			sourceTree = "<group>";
+		};
+		1389A409194FD533003DBD36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1389A40A194FD533003DBD36 /* Taabi-tipCalculatorTests-Info.plist */,
+				1389A40B194FD533003DBD36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1389A3E5194FD533003DBD36 /* Taabi-tipCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1389A412194FD533003DBD36 /* Build configuration list for PBXNativeTarget "Taabi-tipCalculator" */;
+			buildPhases = (
+				1389A3E2194FD533003DBD36 /* Sources */,
+				1389A3E3194FD533003DBD36 /* Frameworks */,
+				1389A3E4194FD533003DBD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taabi-tipCalculator";
+			productName = "Taabi-tipCalculator";
+			productReference = 1389A3E6194FD533003DBD36 /* Taabi-tipCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1389A400194FD533003DBD36 /* Taabi-tipCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1389A415194FD533003DBD36 /* Build configuration list for PBXNativeTarget "Taabi-tipCalculatorTests" */;
+			buildPhases = (
+				1389A3FD194FD533003DBD36 /* Sources */,
+				1389A3FE194FD533003DBD36 /* Frameworks */,
+				1389A3FF194FD533003DBD36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1389A407194FD533003DBD36 /* PBXTargetDependency */,
+			);
+			name = "Taabi-tipCalculatorTests";
+			productName = "Taabi-tipCalculatorTests";
+			productReference = 1389A401194FD533003DBD36 /* Taabi-tipCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1389A3DE194FD533003DBD36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					1389A400194FD533003DBD36 = {
+						TestTargetID = 1389A3E5194FD533003DBD36;
+					};
+				};
+			};
+			buildConfigurationList = 1389A3E1194FD533003DBD36 /* Build configuration list for PBXProject "Taabi-tipCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1389A3DD194FD533003DBD36;
+			productRefGroup = 1389A3E7194FD533003DBD36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1389A3E5194FD533003DBD36 /* Taabi-tipCalculator */,
+				1389A400194FD533003DBD36 /* Taabi-tipCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1389A3E4194FD533003DBD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389A3F4194FD533003DBD36 /* InfoPlist.strings in Resources */,
+				1389A3FC194FD533003DBD36 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1389A3FF194FD533003DBD36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389A40D194FD533003DBD36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1389A3E2194FD533003DBD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389A3FA194FD533003DBD36 /* AppDelegate.m in Sources */,
+				1389A3F6194FD533003DBD36 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1389A3FD194FD533003DBD36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1389A40F194FD533003DBD36 /* Taabi_tipCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1389A407194FD533003DBD36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1389A3E5194FD533003DBD36 /* Taabi-tipCalculator */;
+			targetProxy = 1389A406194FD533003DBD36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1389A3F2194FD533003DBD36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1389A3F3194FD533003DBD36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1389A40B194FD533003DBD36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1389A40C194FD533003DBD36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1389A410194FD533003DBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1389A411194FD533003DBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1389A413194FD533003DBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taabi-tipCalculator/Taabi-tipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "Taabi-tipCalculator/Taabi-tipCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1389A414194FD533003DBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taabi-tipCalculator/Taabi-tipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "Taabi-tipCalculator/Taabi-tipCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1389A416194FD533003DBD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taabi-tipCalculator.app/Taabi-tipCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taabi-tipCalculator/Taabi-tipCalculator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Taabi-tipCalculatorTests/Taabi-tipCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1389A417194FD533003DBD36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Taabi-tipCalculator.app/Taabi-tipCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Taabi-tipCalculator/Taabi-tipCalculator-Prefix.pch";
+				INFOPLIST_FILE = "Taabi-tipCalculatorTests/Taabi-tipCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1389A3E1194FD533003DBD36 /* Build configuration list for PBXProject "Taabi-tipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1389A410194FD533003DBD36 /* Debug */,
+				1389A411194FD533003DBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1389A412194FD533003DBD36 /* Build configuration list for PBXNativeTarget "Taabi-tipCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1389A413194FD533003DBD36 /* Debug */,
+				1389A414194FD533003DBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1389A415194FD533003DBD36 /* Build configuration list for PBXNativeTarget "Taabi-tipCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1389A416194FD533003DBD36 /* Debug */,
+				1389A417194FD533003DBD36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1389A3DE194FD533003DBD36 /* Project object */;
+}
